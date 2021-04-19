@@ -17,3 +17,9 @@ const x = setInterval(() => {
     document.querySelector('.timer').innerHTML = '시간초과';
   }
 }, 1000);
+
+// 이미지 생성
+const body = document.querySelector('body');
+const image = new Image(80, 80);
+image.src = `/img/bug.png`;
+body.appendChild(image);
