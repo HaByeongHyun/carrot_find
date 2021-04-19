@@ -18,6 +18,10 @@ body {
   border: 5px solid black;
   border-radius: 12px;
   margin-top: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .counter {
