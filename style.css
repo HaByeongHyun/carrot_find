@@ -26,6 +26,7 @@ body {
   border: 3px solid black;
   border-radius: 12px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .timer {
@@ -75,6 +76,7 @@ body {
   text-align: center;
   line-height: 60px;
   color: black;
+  cursor: pointer;
 }
 
 .result {

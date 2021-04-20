@@ -40,3 +40,9 @@ window.onload = () => {
     show_image('/img/carrot.png', 80, 80, 'bug');
   }
 };
+
+const img = document.querySelector('img');
+const body = document.querySelector('body');
+img.addEventListener('click', () => {
+  body.removeChild(img);
+});
